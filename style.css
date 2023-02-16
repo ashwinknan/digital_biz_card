@@ -1,0 +1,149 @@
+body { 
+    max-width: 550px;
+    background-color:#23252C;
+    margin: 66px 43px 66px 44px;
+    font-family: Inter, sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile {
+    background-color:#F5F5F5;
+    text-align:center;
+    padding-bottom: 20px;
+    margin-bottom:none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile >img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile > h2 {
+    color: #2B283A;
+    font-size: 25px;
+    margin-bottom:5px;
+}
+
+.profile >h3 {
+    color: #F47D27;
+    font-size: 12.8px; 
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.profile >h5 {
+    color: #4A4E74;
+    font-size: 10.24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.contact-buttons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 10px;
+}
+
+.contact-buttons > a{
+    text-decoration: none;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+button > i{
+    margin-right: 8px;
+}
+
+
+.email-button{
+    width: 115px;
+    height: 34px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D1D5DB;
+    border-radius:6px;
+    padding: 9px 11px 9px 13px;
+   
+    background-color: #FFFFFF;
+    color: #374151;
+    line-height: 16px;
+}
+
+
+.linkedin-button{
+    width: 115px;
+    height: 34px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D1D5DB;
+    border-radius:6px;
+    padding: 9px 11px 9px 13px;
+    background-color: #297FE5;
+    color: #ffffff;
+    line-height: 16px;
+}
+
+.blurb{
+    background-color:#F5F5F5;
+    display: flex;
+    flex-direction: column;
+}
+
+.blurb > h3{
+    color: #2B283A;
+    font-size: 16px;
+    font-weight:700;
+    padding: 0px;
+    margin: 5px 30px;
+}
+
+.blurb > p{
+    color:#4A4E74;
+    font-size: 10.24px;
+    font-weight: 400px;
+    padding:0px;
+    margin: 10px 30px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+footer {
+  background-color: #D5D4D8;
+  color: #fff;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: #918E9B;
+}
+
+.social-icons li {
+  margin: 0 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
